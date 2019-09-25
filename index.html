@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>JQ</title>
+</head>
+<body>
+
+	<!-- text start -->
+	<h1 id="text">Here it is </h1>
+	<button type="button" onclick="myFunction()"> Just Click</button><br>
+	<!-- text end -->
+
+	<!-- date start -->
+	
+	<h1 id="date">see the date</h1>
+	<button type="button" onclick="myDate()">Just Click</button><br>
+	
+	<!-- date end -->
+	<!-- mango start -->
+	<img id="rich" src="images/pic1.jpg" alt="rich"><br>
+	<button type="button" onclick="Rich1()">Borolok</button>
+	<button type="button" onclick="Rich2()">Gorib</button>
+
+	<!-- mango end -->
+
+	<!-- css change -->
+	<p id="css"> JAVA SCRIPT can change style.</p>
+	<button type="button" onclick="Css()">Just Click</button>
+
+	<!-- css change -->
+
+	
+
+
+
+
+
+
+	<script src="js/jquery-3.4.1.min.js"></script>
+	<script src="js/script.js"></script>
+	<!-- text start -->
+	<script>
+		// text start
+		function myFunction(){
+			document.getElementById("text").innerHTML="MY name is Raiyan";
+		};
+
+		// text start
+
+		// date start
+		function myDate(){
+			document.getElementById("date").innerHTML= Date();
+		};
+		// date start
+
+		// mango start
+		function Rich1(){
+			document.getElementById("rich").src="images/pic1.jpg"
+		};
+		function Rich2(){
+			document.getElementById("rich").src="images/pic2.jpg"
+		};
+
+		// mango end
+
+		// css start
+		function Css(){
+			document.getElementById("css").style.fontSize="45px";
+		};
+		// css start
+	</script>
+	
+</body>
+</html>
